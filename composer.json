@@ -1,0 +1,7 @@
+{
+    "name": "fundsandtoil/helper",
+    "description": "General Helper Package",
+    "type": "package",
+    "minimum-stability": "dev",
+    "require": {}
+}
