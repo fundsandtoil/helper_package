@@ -1,7 +1,17 @@
 {
     "name": "fundsandtoil/helper",
     "description": "General Helper Package",
-    "type": "package",
-    "minimum-stability": "dev",
-    "require": {}
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "FAT\\Helper\\": "src/"
+        },
+        "files": [
+            "src/Helpers/ResponseHelper.php",
+            "src/Helpers/DefaultHelper.php"
+        ]
+    },
+    "require": {
+        "laravel/laravel": "*"
+    }
 }
